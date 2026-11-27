@@ -5,6 +5,7 @@ const { autenticado, exigePerfil } = require('../middlewares/autenticacao');
 const { PERFIS } = require('../common/perfis');
 const AuthController = require('../controllers/AuthController');
 const ProfissionalController = require('../controllers/ProfissionalController');
+const BeneficiarioController = require('../controllers/BeneficiarioController');
 
 const rotas = Router();
 
@@ -23,6 +24,16 @@ rotas.put('/profissionais/:id', gerente, profissional.alterar);
 rotas.patch('/profissionais/:id/inativar', gerente, profissional.inativar);
 rotas.patch('/profissionais/:id/reativar', gerente, profissional.reativar);
 
-// ---- Próximos: RF-02 a RF-08 seguem o mesmo padrão ----
+// ---- RF-02 Manter Beneficiários ----
+// Consulta: qualquer perfil autenticado (RN-11). Incluir, alterar e inativar: só o Gerente.
+const beneficiario = new BeneficiarioController();
+const qualquerPerfil = [autenticado, exigePerfil(PERFIS.ATENDENTE)];
+rotas.get('/beneficiarios', qualquerPerfil, beneficiario.listar);
+rotas.get('/beneficiarios/:id', qualquerPerfil, beneficiario.buscarPorId);
+rotas.post('/beneficiarios', gerente, beneficiario.incluir);
+rotas.put('/beneficiarios/:id', gerente, beneficiario.alterar);
+rotas.patch('/beneficiarios/:id/inativar', gerente, beneficiario.inativar);
+
+// ---- Próximos: RF-03 a RF-08 seguem o mesmo padrão ----
 
 module.exports = rotas;

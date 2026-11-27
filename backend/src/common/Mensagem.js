@@ -7,15 +7,21 @@ const TEXTOS = {
   'MSGS-02': 'Dados do profissional atualizados.',
   'MSGS-03': 'Profissional inativado.',
   'MSGS-04': 'Profissional reativado.',
+  'MSGS-05': 'Beneficiário cadastrado.',
+  'MSGS-06': 'Dados do beneficiário atualizados.',
+  'MSGS-07': 'Beneficiário inativado.',
   // Erro
   'MSGE-01': 'Alguns campos precisam de ajuste antes de salvar.',
   'MSGE-02': 'Preencha este campo.',
   'MSGE-02b': 'Escolha uma opção.',
+  'MSGE-03': 'CPF inválido. Confira os 11 números.',
+  'MSGE-04': 'Este CPF já está cadastrado. Busque o beneficiário na lista para ver ou atualizar os dados.',
   'MSGE-05': 'Já existe um profissional com este login. Escolha outro.',
   'MSGE-06': 'A senha precisa ter pelo menos 8 caracteres.',
   'MSGE-07': 'Use letras sem acento, números, ponto ou hífen (mínimo 3).',
+  'MSGE-08': 'Informe o DDD e o número completo.',
   'MSGE-14': 'Não foi possível salvar agora. Verifique sua conexão e tente novamente.',
-  // Propostas para a documentação (ainda não constam na v5)
+  // Autenticação (aprovadas em 27/11/2026)
   'MSGE-15': 'Login ou senha inválidos.',
   'MSGE-16': 'Sua sessão expirou. Entre novamente.',
   'MSGE-17': 'Você não tem permissão para acessar esta função.',
