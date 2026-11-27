@@ -105,6 +105,7 @@ CREATE TABLE solicitacao (
     id_tipo_beneficio        integer     NOT NULL REFERENCES tipo_beneficio (id),
     id_situacao_risco        integer     NOT NULL REFERENCES situacao_risco (id),
     id_profissional_triagem  integer     NOT NULL REFERENCES profissional (id),   -- RN-26
+    id_profissional_analise  integer              REFERENCES profissional (id),   -- RN-40 (Gerente)
     id_profissional_entrega  integer              REFERENCES profissional (id),   -- RN-28
     id_solicitacao_origem    integer              REFERENCES solicitacao (id),
     setor                    varchar(16) NOT NULL,
@@ -115,11 +116,22 @@ CREATE TABLE solicitacao (
     total_parcelas           smallint    NOT NULL DEFAULT 1,
     alerta_duplicidade       boolean     NOT NULL DEFAULT false,                  -- RN-24 (alerta, não bloqueia)
     data_hora_triagem        timestamptz NOT NULL DEFAULT now(),                  -- RN-26
+    data_hora_analise        timestamptz,                                         -- RN-40
+    motivo_indeferimento     varchar(255),                                        -- RN-41
     data_hora_entrega        timestamptz,                                         -- RN-28
     CONSTRAINT ck_solicitacao_setor    CHECK (setor IN ('CRAS', 'CREAS', 'PROMOCAO_SOCIAL')),
-    -- RN-27
+    -- RN-27: PENDENTE -> APROVADO ou INDEFERIDO (Gerente); APROVADO -> ENTREGUE (Entregador)
     CONSTRAINT ck_solicitacao_situacao CHECK (
-        situacao IN ('PENDENTE', 'EM_TRIAGEM', 'APROVADO', 'ENTREGUE')),
+        situacao IN ('PENDENTE', 'APROVADO', 'INDEFERIDO', 'ENTREGUE')),
+    -- RN-40: aprovada, indeferida ou entregue já passou pela análise do Gerente
+    CONSTRAINT ck_solicitacao_analise  CHECK (
+        situacao = 'PENDENTE' OR
+        (id_profissional_analise IS NOT NULL AND data_hora_analise IS NOT NULL)),
+    -- RN-41: indeferimento exige motivo
+    CONSTRAINT ck_solicitacao_motivo   CHECK (
+        (situacao = 'INDEFERIDO' AND motivo_indeferimento IS NOT NULL
+                                 AND length(trim(motivo_indeferimento)) > 0) OR
+        (situacao <> 'INDEFERIDO' AND motivo_indeferimento IS NULL)),
     CONSTRAINT ck_solicitacao_mes      CHECK (extract(day FROM mes_referencia) = 1),
     CONSTRAINT ck_solicitacao_parcela  CHECK (
         parcela BETWEEN 1 AND total_parcelas AND total_parcelas BETWEEN 1 AND 24),
@@ -142,9 +154,9 @@ CREATE TABLE historico_situacao (
     situacao_nova      varchar(10) NOT NULL,
     data_hora          timestamptz NOT NULL DEFAULT now(),
     CONSTRAINT ck_historico_anterior CHECK (
-        situacao_anterior IN ('PENDENTE', 'EM_TRIAGEM', 'APROVADO', 'ENTREGUE')),
+        situacao_anterior IN ('PENDENTE', 'APROVADO', 'INDEFERIDO', 'ENTREGUE')),
     CONSTRAINT ck_historico_nova     CHECK (
-        situacao_nova IN ('PENDENTE', 'EM_TRIAGEM', 'APROVADO', 'ENTREGUE'))
+        situacao_nova IN ('PENDENTE', 'APROVADO', 'INDEFERIDO', 'ENTREGUE'))
 );
 CREATE INDEX ix_historico_solicitacao ON historico_situacao (id_solicitacao);
 

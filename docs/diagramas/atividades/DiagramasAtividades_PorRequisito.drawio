@@ -1,0 +1,964 @@
+<mxfile host="Electron">
+  <diagram name="RF-01 - Manter Profissionais" id="rf01">
+    <mxGraphModel dx="710" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf01-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" value="actDiagrama de Atividade - RF-01 Manter Profissionais" vertex="1">
+          <mxGeometry height="30" width="420" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="642" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela de&#xa;Manutenção de Profissionais" vertex="1">
+          <mxGeometry height="60" width="380" x="469" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Escolhe Opção" vertex="1">
+          <mxGeometry height="50" width="240" x="539" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n05" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="50" width="160" x="579" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro" vertex="1">
+          <mxGeometry height="58" width="220" x="307" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro com dados" vertex="1">
+          <mxGeometry height="58" width="148" x="573" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n07" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Preenche Campos, Seleciona o PerfilAtor Preenche Campos, Seleciona&#xa;o Perfil e Salva/Altera#xa;(Gerente, Entregador ou Atendente)Ator Preenche Campos, Seleciona&#xa;o Perfil e Salva/Altera#xa;e Salva/Altera" vertex="1">
+          <mxGeometry height="62" width="220" x="307" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n08" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Campos" vertex="1">
+          <mxGeometry height="55" width="220" x="307" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n09" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="140" x="43" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Verifica&#xa;Existência do Profissional" vertex="1">
+          <mxGeometry height="60" width="220" x="307.5" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Profissional já existe?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Armazena Dados&#xa;(Senha Criptografada)" vertex="1">
+          <mxGeometry height="55" width="175" x="330" y="938" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Sucesso" vertex="1">
+          <mxGeometry height="55" width="175" x="329.5" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-fim" parent="1" style="doubleEllipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="643" y="1107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Seleciona&#xa;Parâmetros e Consulta" vertex="1">
+          <mxGeometry height="62" width="200" x="747" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Parâmetros da Consulta" vertex="1">
+          <mxGeometry height="62" width="210" x="1032" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="188" x="758" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Executa Consulta&#xa;e verifica se há dados" vertex="1">
+          <mxGeometry height="60" width="210" x="1032" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Profissional&#xa;Encontrado?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Lista Profissionais&#xa;Encontrados" vertex="1">
+          <mxGeometry height="58" width="215" x="1030" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;o registro desejado na lista" vertex="1">
+          <mxGeometry height="58" width="210" x="737" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;a opção" vertex="1">
+          <mxGeometry height="52" width="210" x="737" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n25" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Alterar /&#xa;Inativar/Ativar?" vertex="1">
+          <mxGeometry height="56" width="240" x="722" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Solicita Ativar/&#xa;Inativar Profissional" vertex="1">
+          <mxGeometry height="58" width="200" x="929" y="1042" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Mensagem&#xa;Para Confirmação da Ação" vertex="1">
+          <mxGeometry height="62" width="200" x="929" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n32" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Deseja Ativar/&#xa;Inativar Profissional?" vertex="1">
+          <mxGeometry height="52" width="186" x="936" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-n34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Mostra mensagem e Altera&#xa;o Status do Profissional" vertex="1">
+          <mxGeometry height="55" width="185" x="570.5" y="1292" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e1" edge="1" parent="1" source="rf01-start" target="rf01-n03" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e2" edge="1" parent="1" source="rf01-n03" target="rf01-n04" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e3" edge="1" parent="1" source="rf01-n04" target="rf01-n05" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e4" edge="1" parent="1" source="rf01-n05" target="rf01-n06" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Incluir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e5" edge="1" parent="1" source="rf01-n05" target="rf01-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Consultar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e6" edge="1" parent="1" source="rf01-n06" target="rf01-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e7" edge="1" parent="1" source="rf01-n78" target="rf01-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e8" edge="1" parent="1" source="rf01-n07" target="rf01-n08" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e9" edge="1" parent="1" source="rf01-n08" target="rf01-n09" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e10" edge="1" parent="1" source="rf01-n09" target="rf01-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e11" edge="1" parent="1" source="rf01-n10" target="rf01-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e12" edge="1" parent="1" source="rf01-n09" target="rf01-n11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e13" edge="1" parent="1" source="rf01-n11" target="rf01-n12" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e14" edge="1" parent="1" source="rf01-n12" target="rf01-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e15" edge="1" parent="1" source="rf01-n12" target="rf01-n28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e16" edge="1" parent="1" source="rf01-n28" target="rf01-n29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e17" edge="1" parent="1" source="rf01-n29" target="rf01-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e18" edge="1" parent="1" source="rf01-n13" target="rf01-n14" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e19" edge="1" parent="1" source="rf01-n14" target="rf01-n15" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e20" edge="1" parent="1" source="rf01-n15" target="rf01-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e21" edge="1" parent="1" source="rf01-n16" target="rf01-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.527;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e22" edge="1" parent="1" source="rf01-n15" target="rf01-n17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e23" edge="1" parent="1" source="rf01-n17" target="rf01-n18" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e24" edge="1" parent="1" source="rf01-n18" target="rf01-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e25" edge="1" parent="1" source="rf01-n18" target="rf01-n19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e26" edge="1" parent="1" source="rf01-n19" target="rf01-n20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e27" edge="1" parent="1" source="rf01-n20" target="rf01-n24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e28" edge="1" parent="1" source="rf01-n24" target="rf01-n25" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e29" edge="1" parent="1" source="rf01-n25" target="rf01-n78" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.452;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Alterar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e30" edge="1" parent="1" source="rf01-n25" target="rf01-n30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Inativar/Ativar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e31" edge="1" parent="1" source="rf01-n30" target="rf01-n31" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e32" edge="1" parent="1" source="rf01-n31" target="rf01-n32" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e33" edge="1" parent="1" source="rf01-n32" target="rf01-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e34" edge="1" parent="1" source="rf01-n32" target="rf01-n34" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf01-e35" edge="1" parent="1" source="rf01-n34" target="rf01-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="RF-02 - Manter Beneficiários" id="rf02">
+    <mxGraphModel dx="710" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf02-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" value="actDiagrama de Atividade - RF-02 Manter Beneficiários" vertex="1">
+          <mxGeometry height="30" width="420" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="642" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela de&#xa;Manutenção de Beneficiários" vertex="1">
+          <mxGeometry height="60" width="380" x="469" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Escolhe Opção" vertex="1">
+          <mxGeometry height="50" width="240" x="539" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n05" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="50" width="160" x="579" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro" vertex="1">
+          <mxGeometry height="58" width="220" x="307" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro com dados" vertex="1">
+          <mxGeometry height="58" width="148" x="573" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n07" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Preenche Campos&#xa;e Salva/Altera" vertex="1">
+          <mxGeometry height="62" width="220" x="307" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n08" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida Campos&#xa;e Formato do CPF" vertex="1">
+          <mxGeometry height="55" width="220" x="307" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n09" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="140" x="43" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Verifica&#xa;Existência do CPF" vertex="1">
+          <mxGeometry height="60" width="220" x="307.5" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="CPF já cadastrado?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Armazena&#xa;Dados" vertex="1">
+          <mxGeometry height="55" width="175" x="330" y="938" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Sucesso" vertex="1">
+          <mxGeometry height="55" width="175" x="329.5" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-fim" parent="1" style="doubleEllipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="643" y="1107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Seleciona&#xa;Parâmetros e Consulta" vertex="1">
+          <mxGeometry height="62" width="200" x="747" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Parâmetros da Consulta" vertex="1">
+          <mxGeometry height="62" width="210" x="1032" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="188" x="758" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Executa Consulta&#xa;e verifica se há dados" vertex="1">
+          <mxGeometry height="60" width="210" x="1032" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Beneficiário&#xa;Encontrado?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Lista Beneficiários&#xa;Encontrados" vertex="1">
+          <mxGeometry height="58" width="215" x="1030" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;o registro desejado na lista" vertex="1">
+          <mxGeometry height="58" width="210" x="737" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;a opção" vertex="1">
+          <mxGeometry height="52" width="210" x="737" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n25" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Alterar /&#xa;Inativar?" vertex="1">
+          <mxGeometry height="56" width="240" x="722" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Solicita Inativar&#xa;Beneficiário" vertex="1">
+          <mxGeometry height="58" width="200" x="929" y="1042" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Mensagem&#xa;Para Confirmação da Ação" vertex="1">
+          <mxGeometry height="62" width="200" x="929" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n32" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Deseja Inativar&#xa;Beneficiário?" vertex="1">
+          <mxGeometry height="52" width="186" x="936" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-n34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Mostra mensagem e&#xa;Inativa o Beneficiário" vertex="1">
+          <mxGeometry height="55" width="185" x="570.5" y="1292" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e1" edge="1" parent="1" source="rf02-start" target="rf02-n03" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e2" edge="1" parent="1" source="rf02-n03" target="rf02-n04" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e3" edge="1" parent="1" source="rf02-n04" target="rf02-n05" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e4" edge="1" parent="1" source="rf02-n05" target="rf02-n06" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Incluir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e5" edge="1" parent="1" source="rf02-n05" target="rf02-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Consultar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e6" edge="1" parent="1" source="rf02-n06" target="rf02-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e7" edge="1" parent="1" source="rf02-n78" target="rf02-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e8" edge="1" parent="1" source="rf02-n07" target="rf02-n08" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e9" edge="1" parent="1" source="rf02-n08" target="rf02-n09" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e10" edge="1" parent="1" source="rf02-n09" target="rf02-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e11" edge="1" parent="1" source="rf02-n10" target="rf02-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e12" edge="1" parent="1" source="rf02-n09" target="rf02-n11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e13" edge="1" parent="1" source="rf02-n11" target="rf02-n12" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e14" edge="1" parent="1" source="rf02-n12" target="rf02-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e15" edge="1" parent="1" source="rf02-n12" target="rf02-n28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e16" edge="1" parent="1" source="rf02-n28" target="rf02-n29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e17" edge="1" parent="1" source="rf02-n29" target="rf02-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e18" edge="1" parent="1" source="rf02-n13" target="rf02-n14" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e19" edge="1" parent="1" source="rf02-n14" target="rf02-n15" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e20" edge="1" parent="1" source="rf02-n15" target="rf02-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e21" edge="1" parent="1" source="rf02-n16" target="rf02-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.527;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e22" edge="1" parent="1" source="rf02-n15" target="rf02-n17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e23" edge="1" parent="1" source="rf02-n17" target="rf02-n18" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e24" edge="1" parent="1" source="rf02-n18" target="rf02-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e25" edge="1" parent="1" source="rf02-n18" target="rf02-n19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e26" edge="1" parent="1" source="rf02-n19" target="rf02-n20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e27" edge="1" parent="1" source="rf02-n20" target="rf02-n24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e28" edge="1" parent="1" source="rf02-n24" target="rf02-n25" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e29" edge="1" parent="1" source="rf02-n25" target="rf02-n78" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.452;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Alterar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e30" edge="1" parent="1" source="rf02-n25" target="rf02-n30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Inativar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e31" edge="1" parent="1" source="rf02-n30" target="rf02-n31" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e32" edge="1" parent="1" source="rf02-n31" target="rf02-n32" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e33" edge="1" parent="1" source="rf02-n32" target="rf02-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e34" edge="1" parent="1" source="rf02-n32" target="rf02-n34" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf02-e35" edge="1" parent="1" source="rf02-n34" target="rf02-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="RF-03 - Manter Situações de Risco" id="rf03">
+    <mxGraphModel dx="710" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf03-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" value="actDiagrama de Atividade - RF-03 Manter Situações de Risco" vertex="1">
+          <mxGeometry height="30" width="420" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="642" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela de&#xa;Manutenção de Situações de Risco" vertex="1">
+          <mxGeometry height="60" width="380" x="469" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Escolhe Opção" vertex="1">
+          <mxGeometry height="50" width="240" x="539" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n05" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="50" width="160" x="579" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro" vertex="1">
+          <mxGeometry height="58" width="220" x="307" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro com dados" vertex="1">
+          <mxGeometry height="58" width="148" x="573" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-rSel" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Informa se o Benefício&#xa;é Único ou Recorrente" vertex="1">
+          <mxGeometry height="62" width="220" x="307" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-rDec" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Benefício&#xa;Recorrente?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-rHab" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Habilita o Campo&#xa;Quantidade de Meses" vertex="1">
+          <mxGeometry height="55" width="220" x="307" y="580" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n07" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Preenche Campos&#xa;e Salva/Altera" vertex="1">
+          <mxGeometry height="62" width="220" x="307" y="665" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n08" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Campos" vertex="1">
+          <mxGeometry height="55" width="220" x="307" y="757" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n09" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="847" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="140" x="43" y="744" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Verifica Existência&#xa;da Situação de Risco" vertex="1">
+          <mxGeometry height="60" width="220" x="307.5" y="947" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Situação de Risco&#xa;já existe?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="1067" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Armazena&#xa;Dados" vertex="1">
+          <mxGeometry height="55" width="175" x="330" y="1197" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Sucesso" vertex="1">
+          <mxGeometry height="55" width="175" x="329.5" y="1359" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-fim" parent="1" style="doubleEllipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="643" y="1366.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Seleciona&#xa;Parâmetros e Consulta" vertex="1">
+          <mxGeometry height="62" width="200" x="747" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Parâmetros da Consulta" vertex="1">
+          <mxGeometry height="62" width="210" x="1032" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="188" x="758" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Executa Consulta&#xa;e verifica se há dados" vertex="1">
+          <mxGeometry height="60" width="210" x="1032" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Situação de Risco&#xa;Encontrada?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Lista Situações&#xa;de Risco Encontradas" vertex="1">
+          <mxGeometry height="58" width="215" x="1030" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;o registro desejado na lista" vertex="1">
+          <mxGeometry height="58" width="210" x="737" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;a opção" vertex="1">
+          <mxGeometry height="52" width="210" x="737" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n25" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Alterar /&#xa;Inativar/Ativar?" vertex="1">
+          <mxGeometry height="56" width="240" x="722" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Solicita Ativar/Inativar&#xa;Situação de Risco" vertex="1">
+          <mxGeometry height="58" width="200" x="929" y="1042" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Mensagem&#xa;Para Confirmação da Ação" vertex="1">
+          <mxGeometry height="62" width="200" x="929" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n32" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Deseja Ativar/Inativar&#xa;Situação de Risco?" vertex="1">
+          <mxGeometry height="52" width="186" x="936" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-n34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Mostra mensagem e Altera&#xa;o Status da Situação de Risco" vertex="1">
+          <mxGeometry height="55" width="185" x="570.5" y="1551" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e1" edge="1" parent="1" source="rf03-start" target="rf03-n03" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e2" edge="1" parent="1" source="rf03-n03" target="rf03-n04" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e3" edge="1" parent="1" source="rf03-n04" target="rf03-n05" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e4" edge="1" parent="1" source="rf03-n05" target="rf03-n06" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Incluir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e5" edge="1" parent="1" source="rf03-n05" target="rf03-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Consultar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e6" edge="1" parent="1" source="rf03-n06" target="rf03-rSel" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e7" edge="1" parent="1" source="rf03-n78" target="rf03-rSel" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e8" edge="1" parent="1" source="rf03-rSel" target="rf03-rDec" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e9" edge="1" parent="1" source="rf03-rDec" target="rf03-rHab" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e10" edge="1" parent="1" source="rf03-rDec" target="rf03-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.3;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry">
+            <Array as="points"><mxPoint x="287" y="525" /><mxPoint x="287" y="683.6" /></Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="rf03-e11" edge="1" parent="1" source="rf03-rHab" target="rf03-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e12" edge="1" parent="1" source="rf03-n07" target="rf03-n08" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e13" edge="1" parent="1" source="rf03-n08" target="rf03-n09" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e14" edge="1" parent="1" source="rf03-n09" target="rf03-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e15" edge="1" parent="1" source="rf03-n10" target="rf03-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.7;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e16" edge="1" parent="1" source="rf03-n09" target="rf03-n11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e17" edge="1" parent="1" source="rf03-n11" target="rf03-n12" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e18" edge="1" parent="1" source="rf03-n12" target="rf03-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e19" edge="1" parent="1" source="rf03-n12" target="rf03-n28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e20" edge="1" parent="1" source="rf03-n28" target="rf03-n29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e21" edge="1" parent="1" source="rf03-n29" target="rf03-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e22" edge="1" parent="1" source="rf03-n13" target="rf03-n14" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e23" edge="1" parent="1" source="rf03-n14" target="rf03-n15" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e24" edge="1" parent="1" source="rf03-n15" target="rf03-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e25" edge="1" parent="1" source="rf03-n16" target="rf03-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.527;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e26" edge="1" parent="1" source="rf03-n15" target="rf03-n17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e27" edge="1" parent="1" source="rf03-n17" target="rf03-n18" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e28" edge="1" parent="1" source="rf03-n18" target="rf03-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e29" edge="1" parent="1" source="rf03-n18" target="rf03-n19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e30" edge="1" parent="1" source="rf03-n19" target="rf03-n20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e31" edge="1" parent="1" source="rf03-n20" target="rf03-n24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e32" edge="1" parent="1" source="rf03-n24" target="rf03-n25" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e33" edge="1" parent="1" source="rf03-n25" target="rf03-n78" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.452;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Alterar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e34" edge="1" parent="1" source="rf03-n25" target="rf03-n30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Inativar/Ativar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e35" edge="1" parent="1" source="rf03-n30" target="rf03-n31" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e36" edge="1" parent="1" source="rf03-n31" target="rf03-n32" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e37" edge="1" parent="1" source="rf03-n32" target="rf03-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e38" edge="1" parent="1" source="rf03-n32" target="rf03-n34" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf03-e39" edge="1" parent="1" source="rf03-n34" target="rf03-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram name="RF-04 - Manter Tipos de Benefício" id="rf04">
+    <mxGraphModel dx="710" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1600" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf04-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" value="actDiagrama de Atividade - RF-04 Manter Tipos de Benefício" vertex="1">
+          <mxGeometry height="30" width="420" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="642" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n03" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela de&#xa;Manutenção de Tipos de Benefício" vertex="1">
+          <mxGeometry height="60" width="380" x="469" y="102" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Escolhe Opção" vertex="1">
+          <mxGeometry height="50" width="240" x="539" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n05" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="50" width="160" x="579" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro" vertex="1">
+          <mxGeometry height="58" width="220" x="307" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n78" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela&#xa;de Cadastro com dados" vertex="1">
+          <mxGeometry height="58" width="148" x="573" y="400" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n07" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Preenche Campos&#xa;e Salva/Altera" vertex="1">
+          <mxGeometry height="62" width="220" x="307" y="408" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n08" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Campos" vertex="1">
+          <mxGeometry height="55" width="220" x="307" y="498" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n09" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="588" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n10" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="140" x="43" y="485" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n11" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Verifica Existência&#xa;do Tipo de Benefício" vertex="1">
+          <mxGeometry height="60" width="220" x="307.5" y="688" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n12" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Tipo de Benefício&#xa;já existe?" vertex="1">
+          <mxGeometry height="50" width="180" x="327.5" y="808" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n28" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Armazena&#xa;Dados" vertex="1">
+          <mxGeometry height="55" width="175" x="330" y="938" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n29" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Sucesso" vertex="1">
+          <mxGeometry height="55" width="175" x="329.5" y="1100" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-fim" parent="1" style="doubleEllipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="643" y="1107.5" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n13" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Seleciona&#xa;Parâmetros e Consulta" vertex="1">
+          <mxGeometry height="62" width="200" x="747" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n14" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;Parâmetros da Consulta" vertex="1">
+          <mxGeometry height="62" width="210" x="1032" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n15" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Campos Válidos?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="411" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n16" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="188" x="758" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n17" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Executa Consulta&#xa;e verifica se há dados" vertex="1">
+          <mxGeometry height="60" width="210" x="1032" y="490" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n18" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Tipo de Benefício&#xa;Encontrado?" vertex="1">
+          <mxGeometry height="50" width="180" x="1047" y="577" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n19" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Lista Tipos de&#xa;Benefício Encontrados" vertex="1">
+          <mxGeometry height="58" width="215" x="1030" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n20" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;o registro desejado na lista" vertex="1">
+          <mxGeometry height="58" width="210" x="737" y="666" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n24" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator seleciona&#xa;a opção" vertex="1">
+          <mxGeometry height="52" width="210" x="737" y="863" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n25" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Alterar /&#xa;Inativar/Ativar?" vertex="1">
+          <mxGeometry height="56" width="240" x="722" y="962" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n30" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Solicita Ativar/Inativar&#xa;Tipo de Benefício" vertex="1">
+          <mxGeometry height="58" width="200" x="929" y="1042" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n31" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Mensagem&#xa;Para Confirmação da Ação" vertex="1">
+          <mxGeometry height="62" width="200" x="929" y="1128" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n32" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Deseja Ativar/Inativar&#xa;Tipo de Benefício?" vertex="1">
+          <mxGeometry height="52" width="186" x="936" y="1214" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-n34" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Mostra mensagem e Altera&#xa;o Status do Tipo de Benefício" vertex="1">
+          <mxGeometry height="55" width="185" x="570.5" y="1292" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e1" edge="1" parent="1" source="rf04-start" target="rf04-n03" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e2" edge="1" parent="1" source="rf04-n03" target="rf04-n04" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e3" edge="1" parent="1" source="rf04-n04" target="rf04-n05" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e4" edge="1" parent="1" source="rf04-n05" target="rf04-n06" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Incluir">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e5" edge="1" parent="1" source="rf04-n05" target="rf04-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Consultar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e6" edge="1" parent="1" source="rf04-n06" target="rf04-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e7" edge="1" parent="1" source="rf04-n78" target="rf04-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e8" edge="1" parent="1" source="rf04-n07" target="rf04-n08" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e9" edge="1" parent="1" source="rf04-n08" target="rf04-n09" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e10" edge="1" parent="1" source="rf04-n09" target="rf04-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e11" edge="1" parent="1" source="rf04-n10" target="rf04-n07" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e12" edge="1" parent="1" source="rf04-n09" target="rf04-n11" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e13" edge="1" parent="1" source="rf04-n11" target="rf04-n12" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e14" edge="1" parent="1" source="rf04-n12" target="rf04-n10" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e15" edge="1" parent="1" source="rf04-n12" target="rf04-n28" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e16" edge="1" parent="1" source="rf04-n28" target="rf04-n29" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e17" edge="1" parent="1" source="rf04-n29" target="rf04-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e18" edge="1" parent="1" source="rf04-n13" target="rf04-n14" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e19" edge="1" parent="1" source="rf04-n14" target="rf04-n15" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e20" edge="1" parent="1" source="rf04-n15" target="rf04-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e21" edge="1" parent="1" source="rf04-n16" target="rf04-n13" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.527;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e22" edge="1" parent="1" source="rf04-n15" target="rf04-n17" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e23" edge="1" parent="1" source="rf04-n17" target="rf04-n18" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e24" edge="1" parent="1" source="rf04-n18" target="rf04-n16" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e25" edge="1" parent="1" source="rf04-n18" target="rf04-n19" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e26" edge="1" parent="1" source="rf04-n19" target="rf04-n20" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e27" edge="1" parent="1" source="rf04-n20" target="rf04-n24" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e28" edge="1" parent="1" source="rf04-n24" target="rf04-n25" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e29" edge="1" parent="1" source="rf04-n25" target="rf04-n78" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.452;entryY=1;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Alterar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e30" edge="1" parent="1" source="rf04-n25" target="rf04-n30" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;fontSize=11;fontStyle=1;" value="Inativar/Ativar">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e31" edge="1" parent="1" source="rf04-n30" target="rf04-n31" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e32" edge="1" parent="1" source="rf04-n31" target="rf04-n32" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e33" edge="1" parent="1" source="rf04-n32" target="rf04-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e34" edge="1" parent="1" source="rf04-n32" target="rf04-n34" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf04-e35" edge="1" parent="1" source="rf04-n34" target="rf04-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="rf05" name="RF-05 - Registrar Triagem"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1930" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c1" value="act Diagrama de Atividade - RF-05 Registrar Triagem de Solicitação" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="14" y="14" width="900" height="24" as="geometry"/></mxCell><mxCell id="c2" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="675" y="60" width="50" height="50" as="geometry"/></mxCell><mxCell id="c3" value="Sistema Exibe Tela&lt;br&gt;de Triagem" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="150" width="360" height="80" as="geometry"/></mxCell><mxCell id="c4" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="110" as="sourcePoint"/><mxPoint x="700" y="150" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c5" value="Ator Preenche Dados da Solicitação&lt;br&gt;(Beneficiário, Tipo de Benefício,&lt;br&gt;Situação de Risco, Setor e Data)" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="490.0" y="280" width="420" height="110" as="geometry"/></mxCell><mxCell id="c6" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="230" as="sourcePoint"/><mxPoint x="700" y="280" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c7" value="Sistema Valida&lt;br&gt;Campos" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="440" width="360" height="80" as="geometry"/></mxCell><mxCell id="c8" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="390" as="sourcePoint"/><mxPoint x="700" y="440" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c9" value="Campos Válidos?" style="rhombus;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="540.0" y="570" width="320" height="90" as="geometry"/></mxCell><mxCell id="c10" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="520" as="sourcePoint"/><mxPoint x="700" y="570" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c11" value="Sistema Exibe&lt;br&gt;Mensagem de Aviso" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="100.0" y="575" width="240" height="80" as="geometry"/></mxCell><mxCell id="c12" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="540" y="615" as="sourcePoint"/><mxPoint x="340" y="615" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c13" value="Não" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="400" y="592" width="60" height="20" as="geometry"/></mxCell><mxCell id="c14" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="220" y="575" as="sourcePoint"/><mxPoint x="490" y="320" as="targetPoint"/><Array as="points"><mxPoint x="220" y="320"/></Array></mxGeometry></mxCell><mxCell id="c15" value="Situação de Risco&lt;br&gt;é Recorrente?" style="rhombus;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="530.0" y="730" width="340" height="90" as="geometry"/></mxCell><mxCell id="c16" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="660" as="sourcePoint"/><mxPoint x="700" y="730" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c17" value="Sim" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="706" y="672" width="60" height="20" as="geometry"/></mxCell><mxCell id="c18" value="Sistema Registra Automaticamente&lt;br&gt;a Quantidade de Meses Equivalente" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="30.0" y="730" width="400" height="90" as="geometry"/></mxCell><mxCell id="c19" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="530" y="775" as="sourcePoint"/><mxPoint x="430" y="775" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c20" value="Sim" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="470" y="752" width="60" height="20" as="geometry"/></mxCell><mxCell id="c21" value="Sistema Verifica Duplicidade&lt;br&gt;no(s) Mês(es) Abrangido(s)" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="890" width="380" height="80" as="geometry"/></mxCell><mxCell id="c22" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="820" as="sourcePoint"/><mxPoint x="700" y="890" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c23" value="Não" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="706" y="832" width="60" height="20" as="geometry"/></mxCell><mxCell id="c24" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="230" y="820" as="sourcePoint"/><mxPoint x="510" y="930" as="targetPoint"/><Array as="points"><mxPoint x="230" y="930"/></Array></mxGeometry></mxCell><mxCell id="c25" value="Já Recebeu o Mesmo&lt;br&gt;Benefício no Período?" style="rhombus;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="530.0" y="1030" width="340" height="90" as="geometry"/></mxCell><mxCell id="c26" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="970" as="sourcePoint"/><mxPoint x="700" y="1030" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c27" value="Sistema Exibe Alerta Visual&lt;br&gt;de Duplicidade (não bloqueia)" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="60.0" y="1035" width="340" height="80" as="geometry"/></mxCell><mxCell id="c28" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="530" y="1075" as="sourcePoint"/><mxPoint x="400" y="1075" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c29" value="Sim" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="450" y="1052" width="60" height="20" as="geometry"/></mxCell><mxCell id="c30" value="Sistema Grava a Solicitação&lt;br&gt;com Situação “Pendente”" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="1190" width="380" height="80" as="geometry"/></mxCell><mxCell id="c31" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1120" as="sourcePoint"/><mxPoint x="700" y="1190" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c32" value="Não" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="706" y="1132" width="60" height="20" as="geometry"/></mxCell><mxCell id="c33" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="230" y="1115" as="sourcePoint"/><mxPoint x="510" y="1230" as="targetPoint"/><Array as="points"><mxPoint x="230" y="1230"/></Array></mxGeometry></mxCell><mxCell id="c34" value="Sistema Registra Profissional&lt;br&gt;Responsável e Data/Hora" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="1330" width="380" height="80" as="geometry"/></mxCell><mxCell id="c35" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1270" as="sourcePoint"/><mxPoint x="700" y="1330" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c36" value="Sistema Direciona a Solicitação&lt;br&gt;à Lista do Mês Correspondente" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="1470" width="380" height="80" as="geometry"/></mxCell><mxCell id="c37" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1410" as="sourcePoint"/><mxPoint x="700" y="1470" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c38" value="Sistema Exibe&lt;br&gt;Mensagem de Sucesso" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="535.0" y="1610" width="330" height="80" as="geometry"/></mxCell><mxCell id="c39" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1550" as="sourcePoint"/><mxPoint x="700" y="1610" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c40" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="675" y="1760" width="50" height="50" as="geometry"/></mxCell><mxCell id="c41" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1690" as="sourcePoint"/><mxPoint x="700" y="1760" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c42" value="A solicitação registrada aguarda a análise do Gerente (Diagrama de Atividade RF-06 – Analisar Solicitação)." style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontStyle=2;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="60" y="1860" width="1150" height="40" as="geometry"/></mxCell></root></mxGraphModel></diagram>
+  <diagram id="rf06a" name="RF-06 - Analisar Solicitação"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1700" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c1" value="act Diagrama de Atividade - RF-06 Analisar Solicitação (Gerente)" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="14" y="14" width="900" height="24" as="geometry"/></mxCell><mxCell id="c2" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="675" y="60" width="50" height="50" as="geometry"/></mxCell><mxCell id="c3" value="Sistema Exibe as Solicitações&lt;br&gt;“Pendentes” do Mês" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="150" width="380" height="80" as="geometry"/></mxCell><mxCell id="c4" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="110" as="sourcePoint"/><mxPoint x="700" y="150" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c5" value="Ator Seleciona&lt;br&gt;a Solicitação Desejada" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="290" width="360" height="80" as="geometry"/></mxCell><mxCell id="c6" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="230" as="sourcePoint"/><mxPoint x="700" y="290" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c7" value="Sistema Exibe os Dados da Solicitação&lt;br&gt;e o Histórico do Beneficiário" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="490.0" y="430" width="420" height="80" as="geometry"/></mxCell><mxCell id="c8" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="370" as="sourcePoint"/><mxPoint x="700" y="430" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c9" value="Decisão&lt;br&gt;do Gerente?" style="rhombus;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="540.0" y="570" width="320" height="90" as="geometry"/></mxCell><mxCell id="c10" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="510" as="sourcePoint"/><mxPoint x="700" y="570" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c11" value="Sistema Atualiza a Situação&lt;br&gt;para “Aprovado”" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="920.0" y="575" width="320" height="80" as="geometry"/></mxCell><mxCell id="c12" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="860" y="615" as="sourcePoint"/><mxPoint x="920" y="615" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c13" value="Aprovar" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="875" y="590" width="60" height="20" as="geometry"/></mxCell><mxCell id="c14" value="Ator Informa o Motivo&lt;br&gt;do Indeferimento" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="730" width="360" height="80" as="geometry"/></mxCell><mxCell id="c15" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="660" as="sourcePoint"/><mxPoint x="700" y="730" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c16" value="Indeferir" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="706" y="672" width="60" height="20" as="geometry"/></mxCell><mxCell id="c17" value="Motivo&lt;br&gt;Informado?" style="rhombus;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="540.0" y="870" width="320" height="90" as="geometry"/></mxCell><mxCell id="c18" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="810" as="sourcePoint"/><mxPoint x="700" y="870" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c19" value="Sistema Exibe&lt;br&gt;Mensagem de Erro" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="100.0" y="875" width="260" height="80" as="geometry"/></mxCell><mxCell id="c20" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="540" y="915" as="sourcePoint"/><mxPoint x="360" y="915" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c21" value="Não" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="420" y="892" width="60" height="20" as="geometry"/></mxCell><mxCell id="c22" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="230" y="875" as="sourcePoint"/><mxPoint x="520" y="770" as="targetPoint"/><Array as="points"><mxPoint x="230" y="770"/></Array></mxGeometry></mxCell><mxCell id="c23" value="Sistema Atualiza a Situação&lt;br&gt;para “Indeferido” e Grava o Motivo" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="500.0" y="1030" width="400" height="80" as="geometry"/></mxCell><mxCell id="c24" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="960" as="sourcePoint"/><mxPoint x="700" y="1030" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c25" value="Sim" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="706" y="972" width="60" height="20" as="geometry"/></mxCell><mxCell id="c26" value="Sistema Registra o Gerente e a&lt;br&gt;Data/Hora no Histórico da Solicitação" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="490.0" y="1190" width="420" height="80" as="geometry"/></mxCell><mxCell id="c27" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1110" as="sourcePoint"/><mxPoint x="700" y="1190" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c28" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1080" y="655" as="sourcePoint"/><mxPoint x="910" y="1230" as="targetPoint"/><Array as="points"><mxPoint x="1080" y="1230"/></Array></mxGeometry></mxCell><mxCell id="c29" value="Sistema Exibe&lt;br&gt;Mensagem de Sucesso" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="535.0" y="1340" width="330" height="80" as="geometry"/></mxCell><mxCell id="c30" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1270" as="sourcePoint"/><mxPoint x="700" y="1340" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c31" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="675" y="1490" width="50" height="50" as="geometry"/></mxCell><mxCell id="c32" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1420" as="sourcePoint"/><mxPoint x="700" y="1490" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c33" value="Somente solicitações “Pendentes” podem ser analisadas, e somente pelo Gerente. As aprovadas passam a aparecer para o Entregador (Diagrama de Atividade RF-06 – Gerenciar Entrega)." style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontStyle=2;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="60" y="1600" width="1150" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram><diagram id="rf06" name="RF-06 - Gerenciar Entrega"><mxGraphModel dx="1200" dy="800" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1660" math="0" shadow="0"><root><mxCell id="0"/><mxCell id="1" parent="0"/><mxCell id="c1" value="act Diagrama de Atividade - RF-06 Gerenciar Entrega de Benefícios (Entregador)" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=1;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="14" y="14" width="900" height="24" as="geometry"/></mxCell><mxCell id="c2" value="" style="ellipse;html=1;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="675" y="60" width="50" height="50" as="geometry"/></mxCell><mxCell id="c3" value="Sistema Exibe Tela de&lt;br&gt;Gerenciamento de Entregas" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="150" width="360" height="80" as="geometry"/></mxCell><mxCell id="c4" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="110" as="sourcePoint"/><mxPoint x="700" y="150" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c5" value="Sistema Lista as Solicitações “Aprovadas”&lt;br&gt;com os Dados do Beneficiário" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="480.0" y="290" width="440" height="90" as="geometry"/></mxCell><mxCell id="c6" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="230" as="sourcePoint"/><mxPoint x="700" y="290" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c7" value="Ator Seleciona&lt;br&gt;a Solicitação Desejada" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="440" width="360" height="80" as="geometry"/></mxCell><mxCell id="c8" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="380" as="sourcePoint"/><mxPoint x="700" y="440" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c9" value="Ator Solicita Confirmação&lt;br&gt;de Entrega" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="580" width="360" height="80" as="geometry"/></mxCell><mxCell id="c10" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="520" as="sourcePoint"/><mxPoint x="700" y="580" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c11" value="Sistema Exibe Mensagem&lt;br&gt;de Confirmação da Ação" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="520.0" y="720" width="360" height="80" as="geometry"/></mxCell><mxCell id="c12" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="660" as="sourcePoint"/><mxPoint x="700" y="720" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c13" value="Confirma&lt;br&gt;Entrega?" style="rhombus;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="540.0" y="860" width="320" height="90" as="geometry"/></mxCell><mxCell id="c14" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="800" as="sourcePoint"/><mxPoint x="700" y="860" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c15" value="Sistema Fecha a Confirmação&lt;br&gt;sem Alterar a Solicitação" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="940.0" y="865" width="320" height="80" as="geometry"/></mxCell><mxCell id="c16" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="860" y="905" as="sourcePoint"/><mxPoint x="940" y="905" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c17" value="Não" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="875" y="880" width="60" height="20" as="geometry"/></mxCell><mxCell id="c18" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="1100" y="865" as="sourcePoint"/><mxPoint x="920" y="335" as="targetPoint"/><Array as="points"><mxPoint x="1100" y="335"/></Array></mxGeometry></mxCell><mxCell id="c19" value="Sistema Atualiza a Situação da&lt;br&gt;Solicitação para “Entregue”" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="1020" width="380" height="80" as="geometry"/></mxCell><mxCell id="c20" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="950" as="sourcePoint"/><mxPoint x="700" y="1020" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c21" value="Sim" style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="706" y="962" width="60" height="20" as="geometry"/></mxCell><mxCell id="c22" value="Sistema Registra o Entregador&lt;br&gt;Responsável e a Data/Hora" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="510.0" y="1160" width="380" height="80" as="geometry"/></mxCell><mxCell id="c23" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1100" as="sourcePoint"/><mxPoint x="700" y="1160" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c24" value="Sistema Exibe&lt;br&gt;Mensagem de Sucesso" style="rounded=1;arcSize=8;align=center;verticalAlign=middle;spacingLeft=0;spacingTop=0;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=14;fontStyle=0;fillColor=#FFFFFF;strokeColor=#000000;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="535.0" y="1300" width="330" height="80" as="geometry"/></mxCell><mxCell id="c25" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1240" as="sourcePoint"/><mxPoint x="700" y="1300" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c26" value="" style="ellipse;html=1;shape=endState;fillColor=#000000;strokeColor=#000000;" vertex="1" parent="1"><mxGeometry x="675" y="1450" width="50" height="50" as="geometry"/></mxCell><mxCell id="c27" style="edgeStyle=none;html=1;rounded=0;endArrow=block;endFill=1;startArrow=none;startFill=0;strokeColor=#000000;strokeWidth=1.1;" edge="1" parent="1"><mxGeometry relative="1" as="geometry"><mxPoint x="700" y="1380" as="sourcePoint"/><mxPoint x="700" y="1450" as="targetPoint"/></mxGeometry></mxCell><mxCell id="c28" value="Solicitações “Pendentes” e “Indeferidas” não aparecem para o Entregador. Toda mudança de situação fica no histórico, com o usuário e a data/hora (RN-29)." style="text;align=left;verticalAlign=middle;spacingLeft=2;html=1;whiteSpace=wrap;fontFamily=Helvetica;fontSize=13;fontStyle=2;fillColor=none;strokeColor=none;fontColor=#000000;" vertex="1" parent="1"><mxGeometry x="60" y="1560" width="1150" height="60" as="geometry"/></mxCell></root></mxGraphModel></diagram>
+  <diagram name="RF-07 - Historico e Relatorios" id="rf07">
+    <mxGraphModel dx="710" dy="432" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1300" pageHeight="1250" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="rf07-title" parent="1" style="text;html=1;strokeColor=none;fillColor=none;align=left;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=11;fontStyle=1;" value="actDiagrama de Atividade - RF-07 Consultar Histórico e Emitir Relatórios" vertex="1">
+          <mxGeometry height="30" width="700" x="10" y="10" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-start" parent="1" style="ellipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="34" width="34" x="592" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-n01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe Tela de&#xa;Consultas e Relatórios" vertex="1">
+          <mxGeometry height="58" width="380" x="469" y="100" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-n02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Escolhe Opção" vertex="1">
+          <mxGeometry height="50" width="240" x="539" y="188" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-n03" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="" vertex="1">
+          <mxGeometry height="50" width="160" x="579" y="258" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-a01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Seleciona&#xa;o Beneficiário" vertex="1">
+          <mxGeometry height="58" width="220" x="280" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-a02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Busca as Solicitações&#xa;do Beneficiário" vertex="1">
+          <mxGeometry height="62" width="220" x="280" y="410" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-a03" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Beneficiário&#xa;Encontrado?" vertex="1">
+          <mxGeometry height="54" width="180" x="300" y="500" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-a04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="150" x="40" y="495" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-a05" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe o Histórico de&#xa;Atendimentos e Situação Atual&#xa;de cada Solicitação" vertex="1">
+          <mxGeometry height="74" width="230" x="280" y="600" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b01" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Seleciona os Filtros&#xa;(Setor, Situação de Risco,&#xa;Bairro e Período)" vertex="1">
+          <mxGeometry height="74" width="230" x="800" y="322" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b02" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Valida&#xa;os Filtros" vertex="1">
+          <mxGeometry height="55" width="230" x="800" y="424" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b03" parent="1" style="rhombus;whiteSpace=wrap;html=1;fillColor=#ffffff;strokeColor=#000000;fontSize=10;" value="Filtros&#xa;Válidos?" vertex="1">
+          <mxGeometry height="52" width="180" x="830" y="512" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b04" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Aviso" vertex="1">
+          <mxGeometry height="50" width="160" x="1090" y="510" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b05" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Gera&#xa;o Relatório" vertex="1">
+          <mxGeometry height="55" width="230" x="800" y="610" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b06" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Ator Escolhe o Formato&#xa;de Exportação (PDF ou Excel)" vertex="1">
+          <mxGeometry height="62" width="230" x="800" y="700" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b07" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exporta&#xa;o Arquivo" vertex="1">
+          <mxGeometry height="55" width="230" x="800" y="798" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-b08" parent="1" style="rounded=1;whiteSpace=wrap;html=1;arcSize=30;fillColor=#ffffff;strokeColor=#000000;fontSize=11;" value="Sistema Exibe&#xa;Mensagem de Sucesso" vertex="1">
+          <mxGeometry height="55" width="210" x="810" y="890" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-fim" parent="1" style="doubleEllipse;whiteSpace=wrap;html=1;fillColor=#000000;strokeColor=#000000;" value="" vertex="1">
+          <mxGeometry height="40" width="40" x="593" y="1000" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e01" edge="1" parent="1" source="rf07-start" target="rf07-n01" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e02" edge="1" parent="1" source="rf07-n01" target="rf07-n02" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e03" edge="1" parent="1" source="rf07-n02" target="rf07-n03" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e04" edge="1" parent="1" source="rf07-n03" target="rf07-a01" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Consultar&#xa;Histórico">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e05" edge="1" parent="1" source="rf07-n03" target="rf07-b01" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;fontStyle=1;" value="Emitir&#xa;Relatório">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e06" edge="1" parent="1" source="rf07-a01" target="rf07-a02" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e07" edge="1" parent="1" source="rf07-a02" target="rf07-a03" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e08" edge="1" parent="1" source="rf07-a03" target="rf07-a04" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e09" edge="1" parent="1" source="rf07-a04" target="rf07-a01" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e10" edge="1" parent="1" source="rf07-a03" target="rf07-a05" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e11" edge="1" parent="1" source="rf07-a05" target="rf07-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0;entryY=0.4;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e12" edge="1" parent="1" source="rf07-b01" target="rf07-b02" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e13" edge="1" parent="1" source="rf07-b02" target="rf07-b03" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e14" edge="1" parent="1" source="rf07-b03" target="rf07-b04" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;fontSize=11;" value="Não">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e15" edge="1" parent="1" source="rf07-b04" target="rf07-b01" style="edgeStyle=orthogonalEdgeStyle;html=1;entryX=1;entryY=0.3;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e16" edge="1" parent="1" source="rf07-b03" target="rf07-b05" style="edgeStyle=orthogonalEdgeStyle;html=1;fontSize=11;" value="Sim">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e17" edge="1" parent="1" source="rf07-b05" target="rf07-b06" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e18" edge="1" parent="1" source="rf07-b06" target="rf07-b07" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e19" edge="1" parent="1" source="rf07-b07" target="rf07-b08" style="edgeStyle=orthogonalEdgeStyle;html=1;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="rf07-e20" edge="1" parent="1" source="rf07-b08" target="rf07-fim" style="edgeStyle=orthogonalEdgeStyle;html=1;exitX=0.3;exitY=1;exitDx=0;exitDy=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
