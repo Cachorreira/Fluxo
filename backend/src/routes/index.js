@@ -6,6 +6,8 @@ const { PERFIS } = require('../common/perfis');
 const AuthController = require('../controllers/AuthController');
 const ProfissionalController = require('../controllers/ProfissionalController');
 const BeneficiarioController = require('../controllers/BeneficiarioController');
+const SituacaoRiscoController = require('../controllers/SituacaoRiscoController');
+const TipoBeneficioController = require('../controllers/TipoBeneficioController');
 
 const rotas = Router();
 
@@ -34,6 +36,21 @@ rotas.post('/beneficiarios', gerente, beneficiario.incluir);
 rotas.put('/beneficiarios/:id', gerente, beneficiario.alterar);
 rotas.patch('/beneficiarios/:id/inativar', gerente, beneficiario.inativar);
 
-// ---- Próximos: RF-03 a RF-08 seguem o mesmo padrão ----
+// ---- RF-03 Situações de Risco e RF-04 Tipos de Benefício ----
+// Consulta: qualquer perfil (a triagem precisa das listas). Demais ações: só o Gerente (RN-16).
+const cadastros = [
+  ['situacoes-risco', new SituacaoRiscoController()],
+  ['tipos-beneficio', new TipoBeneficioController()],
+];
+for (const [recurso, ctrl] of cadastros) {
+  rotas.get(`/${recurso}`, qualquerPerfil, ctrl.listar);
+  rotas.get(`/${recurso}/:id`, qualquerPerfil, ctrl.buscarPorId);
+  rotas.post(`/${recurso}`, gerente, ctrl.incluir);
+  rotas.put(`/${recurso}/:id`, gerente, ctrl.alterar);
+  rotas.patch(`/${recurso}/:id/inativar`, gerente, ctrl.inativar);
+  rotas.patch(`/${recurso}/:id/reativar`, gerente, ctrl.reativar);
+}
+
+// ---- Próximos: RF-05 a RF-08 seguem o mesmo padrão ----
 
 module.exports = rotas;

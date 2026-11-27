@@ -10,6 +10,14 @@ const TEXTOS = {
   'MSGS-05': 'Beneficiário cadastrado.',
   'MSGS-06': 'Dados do beneficiário atualizados.',
   'MSGS-07': 'Beneficiário inativado.',
+  'MSGS-08': 'Situação de risco cadastrada.',
+  'MSGS-09': 'Situação de risco atualizada.',
+  'MSGS-10': 'Situação de risco inativada.',
+  'MSGS-11': 'Situação de risco reativada.',
+  'MSGS-12': 'Tipo de benefício cadastrado.',
+  'MSGS-13': 'Tipo de benefício atualizado.',
+  'MSGS-14': 'Tipo de benefício inativado.',
+  'MSGS-15': 'Tipo de benefício reativado.',
   // Erro
   'MSGE-01': 'Alguns campos precisam de ajuste antes de salvar.',
   'MSGE-02': 'Preencha este campo.',
@@ -20,6 +28,8 @@ const TEXTOS = {
   'MSGE-06': 'A senha precisa ter pelo menos 8 caracteres.',
   'MSGE-07': 'Use letras sem acento, números, ponto ou hífen (mínimo 3).',
   'MSGE-08': 'Informe o DDD e o número completo.',
+  'MSGE-09': 'Informe um número inteiro entre 2 e 24.',
+  // MSGE-10 tem um texto para cada cadastro (ver SituacaoRiscoService e TipoBeneficioService)
   'MSGE-14': 'Não foi possível salvar agora. Verifique sua conexão e tente novamente.',
   // Autenticação (aprovadas em 27/11/2026)
   'MSGE-15': 'Login ou senha inválidos.',
