@@ -30,6 +30,14 @@ app.use((erro, req, res, next) => {
     const msg = Mensagem.erro('MSGE-05', 409);
     return res.status(409).json(msg.toJSON());
   }
+  if (erro.code === '23505' && String(erro.constraint).includes('cpf')) {
+    const msg = Mensagem.erro('MSGE-04', 409);
+    return res.status(409).json(msg.toJSON());
+  }
+  if (erro.code === '23505' && /situacao_risco_nome|tipo_beneficio_nome/.test(String(erro.constraint))) {
+    const msg = new Mensagem({ codigo: 'MSGE-10', texto: 'Já existe um cadastro com este nome.', status: 409 });
+    return res.status(409).json(msg.toJSON());
+  }
   console.error(`[${new Date().toISOString()}] ${req.method} ${req.originalUrl}`, erro);
   const msg = Mensagem.erro('MSGE-14', 500);
   return res.status(500).json(msg.toJSON());
